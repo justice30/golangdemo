@@ -1,4 +1,4 @@
-package golangdemo
+package main
 
 import "fmt"
 
