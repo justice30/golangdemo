@@ -12,3 +12,9 @@ go get github.com/gin-gonic/gin
 runnerw.exe: CreateProcess failed with error 216 (no message available)
 修改包名为 package main 就行。 不然执行main方法报错
 
+### go学习资料
+### beego官网
+https://beego.me/
+go get -u github.com/astaxie/beego
+go get -u github.com/beego/bee
+
