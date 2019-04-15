@@ -11,4 +11,18 @@ go get github.com/gin-gonic/gin
 ### goland运行项目
 runnerw.exe: CreateProcess failed with error 216 (no message available)
 修改包名为 package main 就行。 不然执行main方法报错
+###
+[转载]Golang 交叉编译跨平台的可执行程序 (Mac、Linux、Windows )
+https://www.jianshu.com/p/1207276f3617
 
+Windows 下编译 Mac 和 Linux 64位可执行程序
+
+SET CGO_ENABLED=0
+SET GOOS=darwin
+SET GOARCH=amd64
+go build main.go
+
+SET CGO_ENABLED=0
+SET GOOS=linux
+SET GOARCH=amd64
+go build main.go
