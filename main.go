@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/astaxie/beego"
-	_ "golangdemo/routers"
 )
 
 func main() {
@@ -13,4 +12,3 @@ func main() {
 	beego.Run("127.0.0.1:8888")
 
 }
-
