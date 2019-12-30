@@ -3,6 +3,7 @@ module golangdemo
 go 1.13
 
 require (
+	github.com/akavel/rsrc v0.8.0
 	github.com/astaxie/beego v1.12.0
 	github.com/elastic/beats v7.5.0+incompatible
 	github.com/elastic/go-sysinfo v1.1.1 // indirect
