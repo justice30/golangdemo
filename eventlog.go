@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("爱金金")
+	fmt.Println("爱媛媛")
 	s := os.Environ()
 	fmt.Println(s)
 	//var option common.Config
